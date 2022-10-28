@@ -22,10 +22,6 @@ html {
   overflow-y: hidden;
 }
 
-a {
-  text-decoration: none;
-}
-
 #app {
   width: 1080px;
   margin: 0 auto;
@@ -67,7 +63,7 @@ main ul {
   margin-top: 2rem
 }
 
-main ul li {
+main ul li a {
   width: 100%;
   list-style-type: none;
   text-align: center;
@@ -78,7 +74,7 @@ main ul li {
   transition: all 0.2s ease;
 }
 
-main ul li:hover {
+main ul li a:hover {
   background: var(--purple);
   color: var(--body-bg-color);
   border-color: #442c4a;
